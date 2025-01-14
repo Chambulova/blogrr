@@ -1,8 +1,5 @@
-
-
 export default function App() {
   return (
-
     <main>
       {/* NAVBAR */}
       <nav className="bg-black flex items-center justify-between p-4 text-white">
@@ -21,15 +18,27 @@ export default function App() {
         </div>
         <div className=" flex space-x-16 mr-16">
           <button>Login</button>
-          <button className="bg-white rounded-3xl  px-8 py-2 text-center text-orange-600 font-semibold ">Sing Up</button>
+          <button className="bg-white rounded-3xl  px-8 py-2 text-center text-orange-600 font-semibold ">
+            Sing Up
+          </button>
         </div>
       </nav>
 
       {/* NOW DO 2ND SECTION (HEADER here:) dont think about extract into another component, for now just do it here */}
       <header>
-        ...
+        <div className=" bg-black rounded-b-3xl pt-10 text-center items-center justify-between  text-white">
+          <div className="mb-10 text-2xl  leading-none tracking-tight text-gray-900 md:text-2xl lg:text-4xl dark:text-white ">
+            <h1 className="mb-4">A modern publishing platform</h1>
+            <h2 className="lg:text-sm md:text-sm">Grow your audience and build your online brand</h2>
+          </div>
+          <div className="p-10">
+            <button className="bg-white text-orange-600    font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 ">
+              Start for Free
+            </button>
+            <button className="text-white border-solid border-2 border-white font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 ">Learn More</button>
+          </div>
+        </div>
       </header>
-      
     </main>
   );
 }
