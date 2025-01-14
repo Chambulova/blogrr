@@ -28,7 +28,7 @@ export default function App() {
       <header>
         <div className=" bg-black rounded-b-3xl pt-10 text-center items-center justify-between  text-white">
           <div className="mb-10 text-2xl  leading-none tracking-tight text-gray-900 md:text-2xl lg:text-4xl dark:text-white ">
-            <h1 className="mb-4">A modern publishing platform</h1>
+            <h1 className="mb-4">A modernn publishing platform</h1>
             <h2 className="lg:text-sm md:text-sm">Grow your audience and build your online brand</h2>
           </div>
           <div className="p-10">
