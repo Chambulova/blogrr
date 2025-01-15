@@ -1,7 +1,4 @@
-
-
-
-const HeaderBg = () => {
+const HeaderBackground = () => {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -24,14 +21,5 @@ const HeaderBg = () => {
       </svg>
     );
   }
-  
-  function App() {
-    return (
-      <header className="App-header">
-        <HeaderBg />
-      </header>
-    );
-  }
-  
-  export default App;
-  
+
+export default HeaderBackground;
